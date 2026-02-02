@@ -31,19 +31,3 @@
 5. Nếu sử dụng VirtualHost, cấu hình biến `BASE_URL` hoặc `FIVEVAC_BASE_URL` trỏ tới thư mục `public` (ví dụ: `http://localhost/fivevac/public`).  
 6. Truy cập địa chỉ trên trình duyệt để bắt đầu sử dụng.
 
----
-
-## Cấu trúc thư mục
-fivevac_site/
-├─ public/                # Front controller và tệp tĩnh (index.php, CSS, JS, hình ảnh)
-│  ├─ index.php
-│  └─ assets/
-├─ app/
-│  ├─ controllers/        # Controller xử lý logic từng module (Auth, Orders, Consult...)
-│  ├─ models/             # Model ánh xạ tới bảng DB (User, Appointment...)
-│  ├─ views/              # Giao diện (template) cho mỗi module
-│  ├─ core/               # App, Controller, Database, CSRF, Helpers
-│  └─ config/             # Cấu hình DB và hằng số chung
-├─ sql/                   # File sao lưu cấu trúc và dữ liệu mẫu DB
-├─ router.php             # Định nghĩa tuyến đường (nếu cần)
-└─ README.md              # README gốc
