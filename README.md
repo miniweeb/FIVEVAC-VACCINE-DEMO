@@ -30,4 +30,3 @@
 4. Cập nhật thông tin kết nối DB trong `app/config/config.php` (host, tên DB, user, password) hoặc thiết lập biến môi trường phù hợp.  
 5. Nếu sử dụng VirtualHost, cấu hình biến `BASE_URL` hoặc `FIVEVAC_BASE_URL` trỏ tới thư mục `public` (ví dụ: `http://localhost/fivevac/public`).  
 6. Truy cập địa chỉ trên trình duyệt để bắt đầu sử dụng.
-
